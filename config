@@ -204,3 +204,4 @@ client.urgent			$magenta	$magenta	$base3	$red
 for_window [class="^.*"] border pixel 2
 
 exec_always compton --inactive-dim 0.45 -i 0.9 -b
+exec_always ~/.fehbg
