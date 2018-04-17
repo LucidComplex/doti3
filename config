@@ -201,6 +201,10 @@ client.focused_inactive	$base02		$base02		$base2	$violet
 client.unfocused		$base02		$base02		$base1	$base01
 client.urgent			$magenta	$magenta	$base3	$red
 
+# i3-gaps
+gaps inner 10
+gaps outer -1
+
 for_window [class="^.*"] border pixel 2
 
 exec_always compton --inactive-dim 0.45 -i 0.9 -b
